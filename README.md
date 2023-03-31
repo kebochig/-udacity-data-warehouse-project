@@ -1,6 +1,6 @@
-# Data Warehouse with AWS Redshift
+# Data Warehouse on the Cloud (AWS Redshift)
 
-Project scenario: A startup called Sparkify has grown their user base and song database and want to move their data process onto 
+Intriduction: A startup called Sparkify has grown their user base and song database and want to move their data process onto 
 the cloud. Their data resides in AWS S3 including user activity logs and song metadata in *JSON* format.<br/>
 
 ## Business Process / Data Requirements
@@ -17,7 +17,7 @@ the cloud. Their data resides in AWS S3 including user activity logs and song me
 - Connect to the Redshift cluster and run some test queries
 
 ## Database Schema (Data Warehousing) Design
-**User Story**: A **user** plays a **song** whose artist is **artist_name** at time **start_time** using **agent**.<br/>
+A **user** plays a **song** whose artist is **artist_name** at time **start_time** using **agent**.<br/>
 From the above story, we can extract the necessary information/dimensions:
 
 - **Who**: **users** dimension
