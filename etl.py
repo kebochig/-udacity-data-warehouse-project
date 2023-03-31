@@ -30,6 +30,12 @@ def insert_tables(cur, conn):
 
 
 def main():
+     """
+        This executes the following:
+            1.) Call the create cluster script.
+            2.) Establish a db connection.
+            3.) Execute the load_staging_tables and insert_tables methods.
+    """
     config = configparser.ConfigParser()
     config.read('dwh.cfg')
 
